@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfa8a518.css",
-    "main.js": "/static/js/main.0e047450.js",
-    "static/media/Designer1.png": "/static/media/Designer1.32c55123ef3f603232b1.png",
-    "static/media/Designer.png": "/static/media/Designer.2e894d4468ce62991f07.png",
-    "static/media/jacobi.jpg": "/static/media/jacobi.924ab8719ba09dee148d.jpg",
-    "static/media/application.jpg": "/static/media/application.82648eee9506b8f6e034.jpg",
-    "static/media/team.jpg": "/static/media/team.fa40c2b32445cdae89af.jpg",
-    "static/media/system.jpg": "/static/media/system.3658b8870e407a4cfa9a.jpg",
-    "static/media/howworks.jpg": "/static/media/howworks.f2914b154a7aadb45c7d.jpg",
-    "index.html": "/index.html",
-    "main.dfa8a518.css.map": "/static/css/main.dfa8a518.css.map",
-    "main.0e047450.js.map": "/static/js/main.0e047450.js.map"
+    "main.css": "/Jaco-Mat/static/css/main.dfa8a518.css",
+    "main.js": "/Jaco-Mat/static/js/main.89d1da31.js",
+    "static/media/Designer1.png": "/Jaco-Mat/static/media/Designer1.32c55123ef3f603232b1.png",
+    "static/media/Designer.png": "/Jaco-Mat/static/media/Designer.2e894d4468ce62991f07.png",
+    "static/media/jacobi.jpg": "/Jaco-Mat/static/media/jacobi.924ab8719ba09dee148d.jpg",
+    "static/media/application.jpg": "/Jaco-Mat/static/media/application.82648eee9506b8f6e034.jpg",
+    "static/media/team.jpg": "/Jaco-Mat/static/media/team.fa40c2b32445cdae89af.jpg",
+    "static/media/system.jpg": "/Jaco-Mat/static/media/system.3658b8870e407a4cfa9a.jpg",
+    "static/media/howworks.jpg": "/Jaco-Mat/static/media/howworks.f2914b154a7aadb45c7d.jpg",
+    "index.html": "/Jaco-Mat/index.html",
+    "main.dfa8a518.css.map": "/Jaco-Mat/static/css/main.dfa8a518.css.map",
+    "main.89d1da31.js.map": "/Jaco-Mat/static/js/main.89d1da31.js.map"
   },
   "entrypoints": [
     "static/css/main.dfa8a518.css",
-    "static/js/main.0e047450.js"
+    "static/js/main.89d1da31.js"
   ]
 }
