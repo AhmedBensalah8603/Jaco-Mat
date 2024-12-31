@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jaco-Mat/static/css/main.dfa8a518.css",
-    "main.js": "/Jaco-Mat/static/js/main.2e3aca72.js",
+    "main.js": "/Jaco-Mat/static/js/main.afcaeced.js",
     "static/media/Designer1.png": "/Jaco-Mat/static/media/Designer1.32c55123ef3f603232b1.png",
     "static/media/Designer.png": "/Jaco-Mat/static/media/Designer.2e894d4468ce62991f07.png",
     "static/media/jacobi.jpg": "/Jaco-Mat/static/media/jacobi.924ab8719ba09dee148d.jpg",
@@ -11,10 +11,10 @@
     "static/media/howworks.jpg": "/Jaco-Mat/static/media/howworks.f2914b154a7aadb45c7d.jpg",
     "index.html": "/Jaco-Mat/index.html",
     "main.dfa8a518.css.map": "/Jaco-Mat/static/css/main.dfa8a518.css.map",
-    "main.2e3aca72.js.map": "/Jaco-Mat/static/js/main.2e3aca72.js.map"
+    "main.afcaeced.js.map": "/Jaco-Mat/static/js/main.afcaeced.js.map"
   },
   "entrypoints": [
     "static/css/main.dfa8a518.css",
-    "static/js/main.2e3aca72.js"
+    "static/js/main.afcaeced.js"
   ]
 }
