@@ -1,0 +1,137 @@
+/* Page spécifique à Interface */
+.interface-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff8e1; 
+  text-align: center;
+  color: #333;
+}
+
+/* Centrage du contenu principal */
+.interface-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Titre principal */
+.interface-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Conteneur pour les boutons */
+.interface-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacement entre les boutons */
+}
+
+/* Boutons */
+.interface-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #f4b400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.interface-button:hover {
+  background-color: #e0a900;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  position: relative;
+}
+
+/* Navbar styles restent inchangés */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar-title {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+}
+/* Encadrement pour le formulaire */
+.form-container {
+  border: 2px solid #f4b400!important; /* Couleur du cadre */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 100px;
+  background-color: #fff; /* Fond blanc */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px; /* Largeur maximale */
+  margin: auto; /* Centré horizontalement */
+}
+
+/* Texte au-dessus des boutons */
+.form-container h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Boutons dans le formulaire */
+.interface-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacement entre les boutons */
+}
+.welcome-container {
+  position: absolute; /* Utiliser la position absolue pour un placement précis */
+  top: 100px; /* Ajuster cette valeur pour le positionner à la hauteur désirée */
+  left: 50%; /* Centrer horizontalement par rapport à la page */
+  transform: translateX(-50%); /* Ajuster le centrage horizontal */
+  padding: 10px;
+}
+
+.welcome-message {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+

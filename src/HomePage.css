@@ -1,0 +1,466 @@
+/* ==================================
+   Global Styles
+================================== */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==================================
+   Navbar Styles
+================================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #000000 !important ;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+/* Style du titre "Jaco-Mat" */
+.navbar-title {
+  font-size: 1.8rem; /* Taille du texte */
+  font-weight: bold;
+  color: #f4b400; /* Couleur orange */
+  margin-right: 20px; /* Espace entre le titre et le logo */
+  animation: fadeIn 2s ease-in-out; /* Animation de fondu */
+  transition: transform 0.3s ease; /* Animation au survol */
+  cursor: pointer;
+}
+
+/* Animation hover (agrandir légèrement) */
+.navbar-title:hover {
+  transform: scale(1.1); /* Augmente légèrement la taille */
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7); /* Ajout d'un effet lumineux */
+}
+
+/* Animation pour faire apparaître le titre */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-logo {
+  position: absolute; /* Permet de positionner le logo relativement à son parent */
+  top: 50%; /* Centre verticalement */
+  left: 50%; /* Centre horizontalement */
+  transform: translate(-50%, -50%); /* Ajuste le logo pour un centrage parfait */
+  height: 100px !important; /* Taille du logo (vous pouvez ajuster cette valeur) */
+  width: auto !important; /* Garde la largeur proportionnelle à la hauteur */
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar-item a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+  color: #ffffff;
+}
+
+.navbar.scrolled {
+  background-color: #111;
+}
+
+/* Ajout de la section utilisateur */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacement entre les éléments */
+  font-size: 14px;
+  color: white;
+}
+
+/* Style des boutons de connexion et déconnexion */
+.login-button,
+.logout-button {
+  background-color: #f4b400; /* Couleur de fond orange */
+  border: none;
+  color: #000; /* Texte noir */
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background-color: #ffba00; /* Couleur lors du survol */
+  transform: scale(1.05); /* Effet d'agrandissement */
+}
+
+/* ==================================
+   Layout Styles
+================================== */
+.app-container {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+/* ==================================
+   Section Styles (Generic)
+================================== */
+.system-section,
+.how-it-works-section,
+.formulation-section,
+.convergence-section,
+.application-section,
+.intro-section {
+  padding: 50px 20px;
+  background-color: #fffaf0;
+}
+
+.system-content,
+.how-it-works-content,
+.formulation-content,
+.convergence-content,
+.application-content,
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.system-image img,
+.how-it-works-image img,
+.formulation-image img,
+.convergence-image img,
+.application-image img,
+.intro-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border: 5px solid #ffcc80;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.system-text,
+.how-it-works-text,
+.formulation-text,
+.convergence-text,
+.application-text
+ {
+  flex: 2;
+  max-width: 600px;
+  color: #2c3e50;
+  
+}
+.intro-text{
+  transform: translateX(-280px);
+
+}
+
+.system-text h1,
+.how-it-works-text h1,
+.formulation-text h1,
+.convergence-text h1,
+.application-text h1,
+.intro-text h1 {
+  font-size: 28px;
+  color: #ff9800;
+  margin-bottom: 20px;
+}
+
+.system-text p,
+.how-it-works-text ul,
+.formulation-text p,
+.convergence-text p,
+.application-text p,
+.intro-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.how-it-works-text ul,
+.intro-text ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.how-it-works-text ul li strong,
+.intro-text ul li strong {
+  color: #34495e;
+}
+
+/* ==================================
+   Intro Section Styles
+================================== */
+/* ==================================
+   Intro Section Styles (Alignement)
+================================== */
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fffaf0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1; /* S'assurer qu'elle reste au-dessus des autres sections */
+  margin: 40px 0; /* Ajoutez un espace supérieur et inférieur */
+}
+
+.intro-text {
+  max-width: 600px;
+  padding-left: 30px;
+  color: #2c3e50;
+  z-index: 2;
+}
+
+.intro-image img {
+  max-width: 350px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateX(120px);
+
+}
+.intro-text h1 {
+  font-size: 50px;
+  color: #ff9800;
+  margin-bottom: 20px;
+  position: relative;
+}
+.intro-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.intro-text ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Style de base pour le bouton */
+button.start-button {
+  background-color: #f4b400; /* Couleur de fond */
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transitions fluides */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre initiale */
+}
+
+/* Effet au survol */
+button.start-button:hover {
+  background-color: #e0a900; /* Couleur légèrement plus foncée */
+  transform: scale(1.1); /* Agrandissement léger */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre accentuée */
+}
+
+/* Effet au clic */
+button.start-button:active {
+  transform: scale(0.95); /* Réduction temporaire pour un effet de clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre réduite */
+}
+
+/* Animation continue pour attirer l'attention */
+button.start-button {
+  animation: pulse 2s infinite; /* Applique une animation continue */
+}
+
+/* Définition de l'animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Taille normale */
+  }
+  50% {
+    transform: scale(1.05); /* Agrandissement léger au milieu de l'animation */
+  }
+}
+
+
+/* ==================================
+   Footer Styles
+================================== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0a !important; /* Force le noir comme couleur de fond */
+  color: white;
+  margin-top: 40px;
+  position: fixed
+}
+
+
+
+/* ==================================
+   Responsive Styles
+================================== */
+@media screen and (max-width: 768px) {
+  .system-content,
+  .how-it-works-content,
+  .formulation-content,
+  .convergence-content,
+  .application-content,
+  .intro-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .system-text,
+  .how-it-works-text,
+  .formulation-text,
+  .convergence-text,
+  .application-text,
+  .intro-text {
+    max-width: 100%;
+  }
+
+  .system-image img,
+  .how-it-works-image img,
+  .formulation-image img,
+  .convergence-image img,
+  .application-image img,
+  .intro-image img {
+    max-width: 90%;
+  }
+
+  .intro-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  .intro-image img {
+    max-width: 100%;
+  }
+
+  .intro-text {
+    padding-left: 0;
+    max-width: 100%;
+  }
+
+  button.start-button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+/* Overlay de la fenêtre modale */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-out; /* Animation pour l'apparition de la modale */
+}
+
+/* Contenu de la fenêtre modale */
+.modal-content {
+  border: 2px solid #f4b400!important;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px; /* Coins plus arrondis */
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Ombre plus douce */
+  max-width: 450px;
+  width: 90%;
+  transform: scale(0.9); /* Initialement plus petit pour l'animation */
+  animation: scaleUp 0.3s ease-out forwards; /* Animation d'agrandissement */
+}
+
+/* Animation de la modale */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Boutons dans la fenêtre modale */
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.modal-buttons button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: #28a745; /* Vert moderne */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.modal-buttons button:hover {
+  background: #218838; /* Vert plus sombre */
+  transform: translateY(-2px); /* Effet de survol avec légère élévation */
+}
+
+/* Bouton de fermeture */
+.modal-close {
+  border: 2px solid #f4b400;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s;
+}
+
+.modal-close:hover {
+  color: #333;
+  transform: scale(1.1); /* Légère animation de zoom sur la fermeture */
+}
+
+
