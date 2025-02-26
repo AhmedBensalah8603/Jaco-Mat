@@ -37,11 +37,11 @@ function Login() {
       {/* Navbar */}
       <div className="navbar">
         <div className="navbar-title">Jaco-Mat</div>
-        <Link to="/">
+        <Link to="/Jaco-Mat">
           <img src={logo} alt="Logo Designer" className="navbar-logo" />
         </Link>
         <ul className="navbar-menu">
-          <li className="navbar-item"><Link to="/">Home</Link></li>
+          <li className="navbar-item"><Link to="/Jaco-Mat">Home</Link></li>
           <li className="navbar-item"><Link to="/aboutus">About Us</Link></li>
         </ul>
       </div>

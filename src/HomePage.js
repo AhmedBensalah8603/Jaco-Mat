@@ -29,7 +29,7 @@ function HomePage() {
         <div className="navbar-title">Jaco-Mat</div>
         <img src={logo} alt="Logo Designer" className="navbar-logo" />
         <ul className="navbar-menu">
-          <li className="navbar-item"><Link to="/">Home</Link></li>
+          <li className="navbar-item"><Link to="/Jaco-Mat">Home</Link></li>
           <li className="navbar-item"><Link to="/interface">Start</Link></li>
           <li className="navbar-item"><Link to="/aboutus">About Us</Link></li>
           <li className="navbar-item user-info">

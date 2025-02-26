@@ -14,9 +14,8 @@ function App() {
   return (
     <AuthProvider>
       {/* Ajout du basename pour GitHub Pages */}
-      <Router basename="/Jaco-Mat">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/Jaco-Mat" element={<HomePage />} />
           <Route path="/options" element={<Options />} />
           <Route path="/aboutus" element={<About />} />
           <Route path="/matrix" element={<MatrixApp />} />
@@ -25,7 +24,6 @@ function App() {
           <Route path="/create-account" element={<SignPage />} />
           <Route path="/login" element={<LogPage />} />
         </Routes>
-      </Router>
     </AuthProvider>
   );
 }
