@@ -30,7 +30,9 @@ Les algorithmes utilisés pour la méthode de Jacobi sont implémentés dans le 
 Développé par :
 
 Ahmed Bensalah
+
 Mohamed Amin Salhi
+
 Oussema Zghal
 
 
