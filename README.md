@@ -15,7 +15,7 @@ Les algorithmes utilisés pour la méthode de Jacobi sont implémentés dans le 
 ## Installation et Utilisation
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/votre-repo/jaco-mat.git
+   git clone [https://github.com/AhmedBensalah8603/Jaco-Mat.git]
    ```
 2. Installer les dépendances (si nécessaire) :
    ```bash
