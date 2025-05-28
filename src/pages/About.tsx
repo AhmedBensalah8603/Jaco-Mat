@@ -257,7 +257,7 @@ const About = () => {
             <div className="flex flex-col items-center text-center">
               <div className="w-40 h-40 bg-gradient-to-br from-blue-100 to-teal-100 rounded-full mb-6 flex items-center justify-center shadow-xl border-4 border-white overflow-hidden group-hover:scale-110 transition-transform duration-300">
                 <img 
-                  src="https://i.imgur.com/eimPD1n.jpeg"
+                  src="https://i.imgur.com/uCXoFI1.jpeg"
                   alt="Ahmed Bensalah"
                   className="w-full h-full object-cover"
                 />

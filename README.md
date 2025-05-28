@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/a2cad4bc-e574-4141-bd72-4bc5c3f22d2f
+**URL**: https://ahmedbensalah8603.github.io/Jaco-Mat/
 
 ## What is this website?
 
@@ -42,4 +42,4 @@ This project is built with:
 You can easily deploy your website using GitHub pages.
 
 **Developed By**
-Ahmed Bensalah, 1st year Data Engineering Student.
+Ahmed Bensalah, 1st year Data Engineering Student at FSS.
