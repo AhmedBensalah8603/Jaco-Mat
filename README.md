@@ -9,7 +9,7 @@
 JacoMat Pro is a website that solves systems of linear equations using the iterative Jacobi method. Input your matrix manually or upload a CSV file for instant calculations with beautiful visualizations.
 
 
-**How to run the project locally?**
+## How to run the project locally?
 
 Follow these steps:
 
@@ -27,7 +27,7 @@ npm i
 npm run dev
 ```
 
-**What technologies are used for this project?**
+## What technologies are used for this project?
 
 This project is built with:
 
@@ -37,9 +37,9 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-**How can I deploy this project?**
+## How can I deploy this project?
 
 You can easily deploy your website using GitHub pages.
 
-**Developed By**
+## Developed By
 Ahmed Bensalah, 1st year Data Engineering Student at FSS.
